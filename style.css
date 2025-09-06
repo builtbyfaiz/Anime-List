@@ -1,0 +1,9 @@
+header {
+    display: flex;
+    display: inline-block;
+    border: 2px solid;
+}
+header:nth-child {
+    display: flex;
+    display: inline-block;
+}
