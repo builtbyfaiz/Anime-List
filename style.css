@@ -1,9 +1,86 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    border: 2px solid green;
+}
+
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
 header {
     display: flex;
-    display: inline-block;
-    border: 2px solid;
+    flex-wrap: wrap;
+    max-height: 200px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: yellow;
+    border: 5px solid red;
 }
-header:nth-child {
+
+.logo {
     display: flex;
-    display: inline-block;
+    width: max-content;
+    height: auto;
+}
+
+.logo-img {
+    width: 3.2rem;
+    height: auto;
+}
+
+.logo-text {
+    margin: auto 0px auto 10px;
+    padding: 7px;
+    font-size: medium;
+    font-weight: bold;
+    font-style: italic;
+    background-color: blue;
+    color: yellow;
+
+}
+
+.logo-text:hover {
+    border: solid red 2px;
+}
+
+.logo-text,
+.nav-links-list li a {
+    text-decoration: none;
+}
+
+.nav-links-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px auto;
+    font-weight: bold;
+    list-style: none;
+    background-color: purple;
+    align-items: center;
+}
+
+.nav-links-list :hover {
+    background-color: yellow;
+    color: black;
+}
+
+.nav-links-list li {
+    border: none;
+    background-color: blue;
+    padding: 12px;
+}
+
+.nav-links-list li a {
+    background-color: red;
+    padding: 100%;
+    padding: 8px;
+}
+
+.search-bar {
+    width: auto;
+    min-width: 10px;
+    text-align: center;
+    background-color: purple;
+    color: white;
 }
