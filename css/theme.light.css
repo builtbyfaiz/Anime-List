@@ -1,0 +1,96 @@
+[data-theme="light"] {
+    --border-width: 7px;
+    --border-width-thin: 5px;
+
+    /* flipped core colors for light mode */
+    --text: hsl(0, 0%, 7%);        /* Near black text */
+    --background: hsl(257, 50%, 94%);  /* Pure white background */
+    --header: hsl(257 100%, 70%);      /* Very light gray/blue header */
+    --title: hsl(257, 80%, 88%);       /* Subtle light title bg */
+	--color: hsl(252, 58%, 19%);
+    /* accents: dark purple on light background */
+	--accentInverse: #0f0242;
+    --accent: hsl(257, 95%, 84%);
+	--accentContrast: hsl(257, 75%,55%);
+
+	--accent-hover: hsl(257, 75%,45%);
+}
+
+[data-theme="light"] .nav-links-list li a, */
+[data-theme="light"] .logo-text {
+	/* color: hsl(257, 60%, 23%); */
+	color: var(--accentInverse);
+}
+[data-theme="light"] a.active-nav-link {
+    color: hsl(257, 100%, 95%);
+}
+[data-theme="light"] nav ul li a:hover, [data-theme="light"] .logo-text:hover{
+	color: var(--accent);
+}
+[data-theme="light"] .logo {
+	background-color: var(--accent-hover) !important;
+	color: var(--accentContrast) !important;
+}
+[data-theme="light"] .logo-text:hover {
+	background-color: var(--accent-hover) !important;
+	color: var(--accentContrast) !important;
+}
+/* Light Theme Overrides */
+
+
+
+/*  */
+/*  */
+/* 
+[data-theme="light"] body {
+	background-color: var(--background);
+}
+
+[data-theme="light"] header.header {
+	background-color: var(--header);
+}
+
+[data-theme="light"] .logo-text {
+	border: var(--border-width) solid var(--accent-dark);
+}
+
+[data-theme="light"] .logo-text,
+[data-theme="light"] .nav-links-list li a,
+[data-theme="light"] .search-bar {
+	background-color: var(--accent);
+}
+
+[data-theme="light"] .search-bar::placeholder,
+[data-theme="light"] .nav-links-list li a {
+	color: var(--accent-light);
+}
+
+[data-theme="light"] .logo-text:hover,
+[data-theme="light"] .search-bar:hover {
+	border: var(--border-width) solid var(--accent-hover-light);
+	color: var(--accent-hover-light);
+}
+
+[data-theme="light"] .nav-links-list li a:hover {
+	background-color: var(--accent-hover-light);
+}
+
+[data-theme="light"] .nav-links-list li a {
+	border: var(--border-width-thin) solid var(--accent-dark);
+}
+
+[data-theme="light"] .nav-links-list li a.active-nav-link {
+	background-color: var(--accent-dark);
+	border: var(--border-width-thin) solid var(--accent);
+}
+
+[data-theme="light"] .search-bar {
+	border: solid var(--accent-dark) var(--border-width);
+}
+
+[data-theme="light"] .title {
+	background-color: var(--title);
+} */
+
+/*  */
+/*  */

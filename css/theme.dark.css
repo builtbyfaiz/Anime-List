@@ -1,0 +1,65 @@
+:root {
+	--border-width: 7px;
+	--border-width-thin: 5px;
+
+	--text: #e0e0e0;
+	--background: #080808;
+	--header: #1a1031;
+	--title: #342b3a;
+
+	--accent: #362281;
+	--accentInverse: #8768f8;
+	--accentContrast: #1f144b;
+
+	--accent-hover: #8768f8;
+}
+
+body {
+	background-color: var(--background);
+}
+
+.header {
+    background-color: var(--header);
+}
+
+.logo-text {
+	border-color: var(--accentContrast);
+}
+
+/* Assigning variable colors to element sets at once*/
+
+/* Accent Color*/
+.logo-text,
+.nav-links-list li a,
+.search-bar {
+	background-color: var(--accent);
+}
+
+/* Accent-light Color*/
+.search-bar::placeholder,
+.nav-links-list li a,
+.nav-links-list li a {
+	color: var(--accentInverse);
+}
+
+/* Text Color */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.logo-text,
+.search-bar,
+.nav-links-list li a:hover,
+.title {
+	color: var(--text);
+}
+
+/* Combined hover state of Logo and Search Bar Colors */
+.logo-text:hover,
+.search-bar:hover {
+	border-color: var(--accent-hover);
+	color: var(--accent-hover);
+}
