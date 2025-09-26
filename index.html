@@ -1,105 +1,128 @@
 <!DOCTYPE html>
-<html lang="en">
+<html data-theme="light" lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Faiz Anime List</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Faiz Anime List</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+	<body>
+		<header class="header">
+			<a href="index.html" class="logo-link max-height">
+				<span class="logo-text max-height">BuiltByFaiz</span>
+			</a>
 
-<body>
-    <header class="header">
+			<nav class="nav">
+				<ul class="nav-links-list max-height">
+					<li class="max-height">
+						<a class="active-nav-link max-height" href="index.html">Home</a>
+					</li>
+					<li class="max-height"><a class="max-height" href="github.com">Github</a></li>
+					<li class="max-height"><a class="max-height" href="about.html">About</a></li>
+					<li class="max-height"><a class="max-height" href="about.html">Original</a></li>
+				</ul>
+			</nav>
 
-        <a href="index.html" class="logo-link max-height">
-            <span class="logo max-height">
-                <span class="logo-text max-height">BuiltByFaiz</span>
-                <img class="logo-img max-height" src="RedLogoGit.svg" alt="BuiltByFaiz Logo" width="70" height="auto">
-            </span>
-        </a>
-
-        <nav class="nav">
-            <ul class="nav-links-list max-height">
-                <li class="max-height"><a class="active-nav-link max-height" href="index.html">Home</a></li>
-                <li class="max-height"><a class="max-height" href="github.com">Github</a></li>
-                <li class="max-height"><a class="max-height" href="about.html">About</a></li>
-                <li class="max-height"><a class="max-height" href="about.html">Original</a></li>
-            </ul>
-        </nav>
-
-        <input id="search-bar" class="search-bar max-height" placeholder="Search Anime Here">
-    </header>
-    <h1 class="title">Animes I've Watched</h1>
-    <main class="anime-cards">
-
-        <div class="anime-card">
-            <figure><img src="https://placehold.co/320x180" alt="anime-card"></figure>
-            <a href="">MAL</a>&ThickSpace;&ThickSpace;&ThickSpace;
-            RATING
-            &ThickSpace;&ThickSpace;&ThickSpace;<a href="">IMDB</a>
-            <br>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, incidunt enim odio eligendi eius iste
-            illo
-            commodi! Repellendus numquam necessitatibus provident error in. Excepturi recusandae fugiat facere,
-            cumque
-            autem
-            molestias!
-            <strong>READ MORE...</strong>
-        </div>
-        <div class="anime-card">
-            <figure><img src="https://placehold.co/320x180" alt="anime-card">
-            </figure>
-            <a href="">MAL</a>&ThickSpace;&ThickSpace;&ThickSpace;
-            RATING
-            &ThickSpace;&ThickSpace;&ThickSpace;<a href="">IMDB</a>
-            <br>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, incidunt enim odio eligendi eius iste
-            illo
-            commodi! Repellendus numquam necessitatibus provident error in. Excepturi recusandae fugiat facere,
-            cumque
-            autem
-            molestias!
-            <strong>READ MORE...</strong>
-        </div>
-        <div class="anime-card">
-            <figure><img src="https://placehold.co/320x180" alt="anime-card">
-            </figure>
-            <a href="">MAL</a>&ThickSpace;&ThickSpace;&ThickSpace;
-            RATING
-            &ThickSpace;&ThickSpace;&ThickSpace;<a href="">IMDB</a>
-            <br>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, incidunt enim odio eligendi eius iste
-            illo
-            commodi! Repellendus numquam necessitatibus provident error in. Excepturi recusandae fugiat facere,
-            cumque
-            autem
-            molestias!
-            <strong>READ MORE...</strong>
-        </div>
-        <div class="anime-card">
-            <figure><img src="https://placehold.co/320x180" alt="anime-card">
-            </figure>
-            <a href="">MAL</a>&ThickSpace;&ThickSpace;&ThickSpace;
-            RATING
-            &ThickSpace;&ThickSpace;&ThickSpace;<a href="">IMDB</a>
-            <br>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, incidunt enim odio eligendi eius iste
-            illo
-            commodi! Repellendus numquam necessitatibus provident error in. Excepturi recusandae fugiat facere,
-            cumque
-            autem
-            molestias!
-            <strong>READ MORE...</strong>
-        </div>
-
-
-
-    </main>
-</body>
-
+			<input id="search-bar" class="search-bar max-height" placeholder="Search Anime Here" />
+		</header>
+		<h1 class="title">Animes I've Watched</h1>
+		<main class="anime-cards">
+			<div class="anime-card">
+				<figure>
+					<img src="https://placehold.co/320x180" alt="anime-card" />
+				</figure>
+				<a class="mal-links" href="myanimelist.com">MAL</a
+				><span class="anime-card-rating">RATING</span>
+				<a class="imdb-links" href="imdb.com">IMDB</a>
+				<br />
+				<p class="anime-description">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, incidunt enim
+					odio eligendi eius iste illo commodi! Repellendus numquam necessitatibus
+					provident error in. Excepturi recusandae fugiat facere, cumque autem molestias!
+					<button><strong>READ MORE...</strong></button>
+				</p>
+			</div>
+			<div class="anime-card">
+				<figure>
+					<img src="https://placehold.co/320x180" alt="anime-card" />
+				</figure>
+				<a class="mal-links" href="myanimelist.com">MAL</a
+				><span class="anime-card-rating">RATING</span>
+				<a class="imdb-links" href="imdb.com">IMDB</a>
+				<br />
+				<p class="anime-description">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, incidunt enim
+					odio eligendi eius iste illo commodi! Repellendus numquam necessitatibus
+					provident error in. Excepturi recusandae fugiat facere, cumque autem molestias!
+					<button><strong>READ MORE...</strong></button>
+				</p>
+			</div>
+			<div class="anime-card">
+				<figure>
+					<img src="https://placehold.co/320x180" alt="anime-card" />
+				</figure>
+				<a class="mal-links" href="myanimelist.com">MAL</a
+				><span class="anime-card-rating">RATING</span>
+				<a class="imdb-links" href="imdb.com">IMDB</a>
+				<br />
+				<p class="anime-description">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, incidunt enim
+					odio eligendi eius iste illo commodi! Repellendus numquam necessitatibus
+					provident error in. Excepturi recusandae fugiat facere, cumque autem molestias!
+					<button><strong>READ MORE...</strong></button>
+				</p>
+			</div>
+			<div class="anime-card">
+				<figure>
+					<img src="https://placehold.co/320x180" alt="anime-card" />
+				</figure>
+				<a class="mal-links" href="myanimelist.com">MAL</a
+				><span class="anime-card-rating">RATING</span>
+				<a class="imdb-links" href="imdb.com">IMDB</a>
+				<br />
+				<p class="anime-description">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, incidunt enim
+					odio eligendi eius iste illo commodi! Repellendus numquam necessitatibus
+					provident error in. Excepturi recusandae fugiat facere, cumque autem molestias!
+					<button><strong>READ MORE...</strong></button>
+				</p>
+			</div>
+			<div class="anime-card">
+				<figure>
+					<img src="https://placehold.co/320x180" alt="anime-card" />
+				</figure>
+				<a class="mal-links" href="myanimelist.com">MAL</a
+				><span class="anime-card-rating">RATING</span>
+				<a class="imdb-links" href="imdb.com">IMDB</a>
+				<br />
+				<p class="anime-description">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, incidunt enim
+					odio eligendi eius iste illo commodi! Repellendus numquam necessitatibus
+					provident error in. Excepturi recusandae fugiat facere, cumque autem molestias!
+					<button><strong>READ MORE...</strong></button>
+				</p>
+			</div>
+			<div class="anime-card">
+				<figure>
+					<img src="https://placehold.co/320x180" alt="anime-card" />
+				</figure>
+				<a class="mal-links" href="myanimelist.com">MAL</a
+				><span class="anime-card-rating">RATING</span>
+				<a class="imdb-links" href="imdb.com">IMDB</a>
+				<br />
+				<p class="anime-description">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, incidunt enim
+					odio eligendi eius iste illo commodi! Repellendus numquam necessitatibus
+					provident error in. Excepturi recusandae fugiat facere, cumque autem molestias!
+					<button><strong>READ MORE...</strong></button>
+				</p>
+			</div>
+		</main>
+	</body>
 </html>
 
-1. Where (Position & Layout)
+<!-- 1. Where (Position & Layout)
 position, top/right/bottom/left, z-index, display, float, clear, flex/grid props
 
 2. Size (Box Model)
@@ -112,4 +135,4 @@ font-family, font-size, line-height, font-weight, letter-spacing, text-align, te
 background, border, border-radius, box-shadow, outline
 
 5. Effect (Effects & Misc)
-opacity, cursor, transition, animation, transform
+opacity, cursor, transition, animation, transform -->
