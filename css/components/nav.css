@@ -1,49 +1,4 @@
-[data-theme="light"] {
-	a.active-nav-link {
-		color: hsl(257, 100%, 95%);
-	}
-	nav ul li a:hover {
-		background-color: var(--hover);
-		color: var(--accent);
-	}
-}
-:root {
-	--text: #e0e0e0;
-	--background: #080808;
-	--header: #1a1031;
-	--title: #342b3a;
 
-	--accent: #362281;
-	--accentLight: #8768f8;
-	--accentDark: #1f144b;
-
-
-    --nav-text: var(--accentLight);
-    --nav-border: var(--accentDark);
-    --nav-background: var(--accent);
-    
-    --nav-text-hover: var(--accent);
-    --nav-border-hover: var();
-    --nav-background-hover: var(--hover);
-    
-    --nav-text-active: var(--text);
-    --nav-border-active: var(--accent);
-    --nav-background-active: var(--accentDark);
-
-}
-[data-theme="light"] {
-    --nav-text: var(--accentLight);
-    --nav-border: var(--accentDark);
-    --nav-background: var(--accent);
-    
-    --nav-text-hover: var(--accent);
-    --nav-border-hover: var();
-    --nav-background-hover: var(--hover);
-    
-    --nav-text-active: var(--text);
-    --nav-border-active: var(--accent);
-    --nav-background-active: var(--accentDark);
-}
 .nav {
     display: flex;
     height: 70%;
@@ -58,15 +13,16 @@
     font-weight: bold;
 	text-decoration: none;
 	border: var(--border-width-thin) solid var(--nav-border);
-	background-color: var(--nav-background);
+	background-color: var(--nav-bg);
 	color: var(--nav-text);
 }
 
 nav.nav a:hover {
 	color: var(--nav-text-hover);
-	background-color: var(--nav-background-hover);
+	background-color: var(--nav-bg-hover);
 }
 .nav a.active-nav-link {
-    border: var(--border-width-thin) solid var(--nav-border-active);
-	background-color: var(--nav-background-active);
+    border-color: var(--nav-border-active);
+    color: var(--nav-text-active);
+	background-color: var(--nav-bg-active);
 }

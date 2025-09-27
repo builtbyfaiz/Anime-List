@@ -1,0 +1,45 @@
+/* DEFAULT DARK THEME */
+
+:root {
+
+	/* Default Dark Mode */
+	--bg: #080808;
+	--text: #e0e0e0;
+	--header: #1a1031;
+	--title: #342b3a;
+
+	--accent: #362281;
+	--accentLight: #8768f8;
+	--accentDark: #1f144b;
+
+	/* Logo */
+	--logo-bg: var(--accent);
+	--logo-text: var(--text);
+	--logo-border: var(--accentDark);
+
+	--logo-bg-hover: var(--accent);
+	--logo-text-hover: var(--accentLight);
+	--logo-border-hover: var(--accentLight);
+    
+	/* Nav */
+    --nav-bg: var(--accent);
+    --nav-text: var(--accentLight);
+    --nav-border: var(--accentDark);
+    
+    --nav-bg-hover: var(--accentLight);
+    --nav-text-hover: var(--text);
+    --nav-border-hover: var();
+    
+    --nav-bg-active: var(--accentDark);
+    --nav-text-active: var(--text);
+    --nav-border-active: var(--accent);
+
+	/* SearchBar */
+	--searchbar:var(--text);
+	--searchbar-bg:var(--accent);
+	--searchbar-border:var(--accentDark);
+	--searchbar-placeholder:var(--accentLight);
+	
+	--searchbar-hover:var(--accentLight);
+	--searchbar-border-hover:var(--accentLight);
+}

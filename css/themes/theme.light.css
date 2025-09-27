@@ -1,0 +1,46 @@
+/* Light Theme Overrides */
+
+[data-theme="light"] {
+
+	/* Light Mode */
+	--bg: hsl(257, 50%, 94%); /* Pure white background */
+	--text: hsl(0, 0%, 7%); /* Near black text */
+	--header: hsl(257 100%, 70%); /* Very light gray/blue header */
+	--title: hsl(257, 80%, 88%); /* Subtle light title bg */
+
+	--accent: hsl(257, 75%, 55%);
+	--accentLight: hsl(257, 95%, 84%);
+	--accentDark: #0f0242;
+	--hover: hsl(257, 75%, 45%);
+
+	/* Logo */
+	--logo-bg: var(--accentLight);
+	--logo-text: var(--text);
+	--logo-border: var(--accent);
+
+	--logo-bg-hover: var(--accentLight);
+	--logo-text-hover: var(--hover);
+	--logo-border-hover: var(--hover);
+
+	/* Nav */
+    --nav-bg: var(--accentLight);
+    --nav-text: var(--accentDark);
+    --nav-border: var(--accent);
+    
+    --nav-bg-hover: var(--hover);
+    --nav-text-hover: var(--accentLight);
+    --nav-border-hover: var();
+    
+    --nav-bg-active: var(--accent);
+    --nav-text-active: var(--accentLight);
+    --nav-border-active: var(--accentLight);
+
+	/* SearchBar */
+	--searchbar:var(--text);
+	--searchbar-bg:var(--accentLight);
+	--searchbar-border:var(--accent);
+	--searchbar-placeholder:var(--accentDark);
+	
+	--searchbar-hover:var(--accentDark);
+	--searchbar-border-hover:var(--hover);
+}
