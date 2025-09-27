@@ -1,0 +1,23 @@
+/* Accent-light Color*/
+.search-bar::placeholder {
+	color: var(--searchbar-placeholder);
+}
+
+/* Combined hover state of Logo and Search Bar */
+.search-bar:hover {
+	border: var(--border-width) solid var(--searchbar-border-hover);
+	border-right: 0;
+	color: var(--searchbar-hover);
+}
+
+.search-bar {
+	width: 15rem;
+	font-size: larger;
+	font-weight: bold;
+	text-align: center;
+	border: var(--border-width) solid var(--searchbar-border);
+	border-right: 0;
+	border-radius: 999px 0 0 999px;
+	background-color: var(--searchbar-bg);
+	color: var(--searchbar);
+}
