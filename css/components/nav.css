@@ -8,6 +8,30 @@
 	}
 }
 :root {
+	--text: #e0e0e0;
+	--background: #080808;
+	--header: #1a1031;
+	--title: #342b3a;
+
+	--accent: #362281;
+	--accentLight: #8768f8;
+	--accentDark: #1f144b;
+
+
+    --nav-text: var(--accentLight);
+    --nav-border: var(--accentDark);
+    --nav-background: var(--accent);
+    
+    --nav-text-hover: var(--accent);
+    --nav-border-hover: var();
+    --nav-background-hover: var(--hover);
+    
+    --nav-text-active: var(--text);
+    --nav-border-active: var(--accent);
+    --nav-background-active: var(--accentDark);
+
+}
+[data-theme="light"] {
     --nav-text: var(--accentLight);
     --nav-border: var(--accentDark);
     --nav-background: var(--accent);
