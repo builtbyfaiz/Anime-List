@@ -1,0 +1,33 @@
+/* Light Theme */
+:root {
+	--logo-text: var(--accentLight);
+	--logo-border: var(--accentDark);
+	--logo-background: var(--accent);
+
+	--logo-text-hover: var(--accent);
+	--logo-border-hover: var(--accentDark);
+	--logo-background-hover: var(--hover);
+}
+
+.logo {
+	display: flex;
+	margin: auto 0px;
+	padding: 0 1.2rem 0 0.8rem;
+	align-items: center;
+	width: 15rem;
+	font-size: 2rem;
+	font-weight: bold;
+	font-style: italic;
+	text-decoration: none;
+	border: var(--border-width) solid var(--logo-border);
+	border-left: 0;
+	border-radius: 0 999px 999px 0;
+	background-color: var(--logo-background);
+	color: var(--logo-text);
+}
+.logo:hover {
+	border: var(--border-width) solid var(--logo-border-hover);
+	border-left: 0;
+	background-color: var(--logo-background-hover);
+	color: var(--logo-text-hover) ;
+}

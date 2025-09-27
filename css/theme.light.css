@@ -1,0 +1,13 @@
+[data-theme="light"] {
+
+	--text: hsl(0, 0%, 7%); /* Near black text */
+	--background: hsl(257, 50%, 94%); /* Pure white background */
+	--header: hsl(257 100%, 70%); /* Very light gray/blue header */
+	--title: hsl(257, 80%, 88%); /* Subtle light title bg */
+	--accentLigt: #0f0242;
+	--accent: hsl(257, 95%, 84%);
+	--accentDark: hsl(257, 75%, 55%);
+    
+	--hover: hsl(257, 75%, 45%);
+}
+
