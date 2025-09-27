@@ -1,0 +1,21 @@
+.anime-card-rating{
+    color: var(--text);
+}
+
+.anime-card {
+    display: flex;
+    width: 20rem;
+    flex-direction: column;
+border: 2px solid red;
+}
+.anime-card-img {
+    /* display: flex; */
+    width: 20em;
+}
+.card-link-container {
+    display: flex;
+    padding: 5px 20px;
+    justify-content: space-between;
+    border: 2px solid red;
+}
+
