@@ -1,133 +1,223 @@
 <!DOCTYPE html>
 <html data-theme="ligt" lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Faiz Anime List</title>
+		<link rel="stylesheet" href="/css/main.css" />
+	</head>
 
-<head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>Faiz Anime List</title>
-	<link rel="stylesheet" href="/css/main.css" />
+	<body>
+		<!-- <div class="header-helper"> -->
+		<header class="header">
+			<a href="index.html" class="rounded-right logo"> BuiltByFaiz </a>
+			<nav class="nav">
+				<a class="rounded-left active-nav-link max-height" href="index.html">Home</a>
+				<a class="max-height" href="github.com">Github</a>
+				<a class="max-height" href="about.html">About</a>
+				<a class="rounded-right max-height" href="about.html">Original</a>
+			</nav>
 
-</head>
-
-<body>
-
-	<header class="header">
-		<a href="index.html" class="rounded-right logo max-height">
-			BuiltByFaiz
-		</a>
-
-		<nav class="nav">
-			<a class="rounded-left active-nav-link max-height" href="index.html">Home</a>
-			<a class="max-height" href="github.com">Github</a>
-			<a class="max-height" href="about.html">About</a>
-			<a class="rounded-right max-height" href="about.html">Original</a>
-		</nav>
-
-		<input id="search-bar" class="search-bar max-height" placeholder="Search Anime Here" />
-	</header>
-	<h1 class="title">Animes I've Watched</h1><button id="theme-toggle">Toggle Theme</button>
-
-	<main class="anime-cards">
-		<div class="anime-card">
-			<img class="anime-card-img" src="https://placehold.co/320x180" width="320" alt="anime-card" />
-			<div class="card-link-container">
-				<a class="mal-links" href="myanimelist.com">MAL</a><span class="anime-card-rating">RATING</span>
-				<a class="imdb-links" href="imdb.com">IMDB</a>
+			<input id="search-bar" class="search-bar" placeholder="Search Anime Here" />
+		</header>
+		<h1 class="title">Animes I've Watched</h1>
+		<main class="anime-cards">
+			<div class="anime-card animetest">
+				<img
+					class="anime-img"
+					src="https://placehold.co/320x180"
+					width="320"
+					alt="Image of Name Anime"
+				/>
+				<div class="anime-header">
+					<span class="anime-title">Name</span>
+					<span class="anime-rating">9.5</span>
+				</div>
+				<div class="anime-content">
+					<ul>
+						<li>Genre</li>
+						<li>Episodes</li>
+						<li>Length</li>
+						<li>Name</li>
+					</ul>
+					<p class="anime-description">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, incidunt
+						enim odio eligendi eius iste illo commodi! Repellendus numquam
+						necessitatibus provident error in. Excepturi recusandae fugiat facere,
+						cumque autem molestias!
+						<button><strong>READ MORE...</strong></button>
+					</p>
+				</div>
+				<div class="anime-links">
+					<a class="mal-link" href="myanimelist.com">MAL</a>
+					<a class="imdb-link" href="imdb.com">IMDB</a>
+				</div>
 			</div>
-			<ul>
-				<li>Genre</li>
-				<li>Episodes</li>
-				<li>Length</li>
-				<li>Name</li>
-			</ul>
-			<p class="anime-description">
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, incidunt enim
-				odio eligendi eius iste illo commodi! Repellendus numquam necessitatibus
-				provident error in. Excepturi recusandae fugiat facere, cumque autem molestias!
-				<button><strong>READ MORE...</strong></button>
-			</p>
-		</div>
-		<div class="anime-card">
-			<figure>
-				<img src="https://placehold.co/320x180" alt="anime-card" />
-			</figure>
-			<a class="mal-links" href="myanimelist.com">MAL</a><span class="anime-card-rating">RATING</span>
-			<a class="imdb-links" href="imdb.com">IMDB</a>
-			<p class="anime-description">
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, incidunt enim
-				odio eligendi eius iste illo commodi! Repellendus numquam necessitatibus
-				provident error in. Excepturi recusandae fugiat facere, cumque autem molestias!
-				<button><strong>READ MORE...</strong></button>
-			</p>
-		</div>
-		<div class="anime-card">
-			<figure>
-				<img src="https://placehold.co/320x180" alt="anime-card" />
-			</figure>
-			<a class="mal-links" href="myanimelist.com">MAL</a><span class="anime-card-rating">RATING</span>
-			<a class="imdb-links" href="imdb.com">IMDB</a>
-			<br />
-			<p class="anime-description">
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, incidunt enim
-				odio eligendi eius iste illo commodi! Repellendus numquam necessitatibus
-				provident error in. Excepturi recusandae fugiat facere, cumque autem molestias!
-				<button><strong>READ MORE...</strong></button>
-			</p>
-		</div>
-		<div class="anime-card">
-			<figure>
-				<img src="https://placehold.co/320x180" alt="anime-card" />
-			</figure>
-			<a class="mal-links" href="myanimelist.com">MAL</a><span class="anime-card-rating">RATING</span>
-			<a class="imdb-links" href="imdb.com">IMDB</a>
-			<br />
-			<p class="anime-description">
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, incidunt enim
-				odio eligendi eius iste illo commodi! Repellendus numquam necessitatibus
-				provident error in. Excepturi recusandae fugiat facere, cumque autem molestias!
-				<button><strong>READ MORE...</strong></button>
-			</p>
-		</div>
-		<div class="anime-card">
-			<figure>
-				<img src="https://placehold.co/320x180" alt="anime-card" />
-			</figure>
-			<a class="mal-links" href="myanimelist.com">MAL</a><span class="anime-card-rating">RATING</span>
-			<a class="imdb-links" href="imdb.com">IMDB</a>
-			<br />
-			<p class="anime-description">
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, incidunt enim
-				odio eligendi eius iste illo commodi! Repellendus numquam necessitatibus
-				provident error in. Excepturi recusandae fugiat facere, cumque autem molestias!
-				<button><strong>READ MORE...</strong></button>
-			</p>
-		</div>
-		<div class="anime-card">
-			<figure>
-				<img src="https://placehold.co/320x180" alt="anime-card" />
-			</figure>
-			<a class="mal-links" href="myanimelist.com">MAL</a><span class="anime-card-rating">RATING</span>
-			<a class="imdb-links" href="imdb.com">IMDB</a>
-			<br />
-			<p class="anime-description">
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, incidunt enim
-				odio eligendi eius iste illo commodi! Repellendus numquam necessitatibus
-				provident error in. Excepturi recusandae fugiat facere, cumque autem molestias!
-				<button><strong>READ MORE...</strong></button>
-			</p>
-		</div>
-	</main>
-	<script>
-  document.addEventListener("DOMContentLoaded", () => {
-    const btn = document.getElementById("theme-toggle");
-    btn.addEventListener("click", () => {
-      document.body.classList.toggle("light");
-    });
-  });
-</script>
-
-</body>
-
+			<div class="anime-card">
+				<img
+					class="anime-img"
+					src="https://placehold.co/320x180"
+					width="320"
+					alt="Image of Name Anime"
+				/>
+				<div class="anime-header">
+					<span class="anime-title">Name</span>
+					<span class="anime-rating">9.5</span>
+				</div>
+				<div class="anime-content">
+					<ul>
+						<li>Genre</li>
+						<li>Episodes</li>
+						<li>Length</li>
+						<li>Name</li>
+					</ul>
+					<p class="anime-description">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, incidunt
+						enim odio eligendi eius iste illo commodi! Repellendus numquam
+						necessitatibus provident error in. Excepturi recusandae fugiat facere,
+						cumque autem molestias!
+						<button><strong>READ MORE...</strong></button>
+					</p>
+				</div>
+				<div class="anime-links">
+					<a class="mal-link" href="myanimelist.com">MAL</a>
+					<a class="imdb-link" href="imdb.com">IMDB</a>
+				</div>
+			</div>
+			<div class="anime-card">
+				<img
+					class="anime-img"
+					src="https://placehold.co/320x180"
+					width="320"
+					alt="Image of Name Anime"
+				/>
+				<div class="anime-header">
+					<span class="anime-title">Name</span>
+					<span class="anime-rating">9.5</span>
+				</div>
+				<div class="anime-content">
+					<ul>
+						<li>Genre</li>
+						<li>Episodes</li>
+						<li>Length</li>
+						<li>Name</li>
+					</ul>
+					<p class="anime-description">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, incidunt
+						enim odio eligendi eius iste illo commodi! Repellendus numquam
+						necessitatibus provident error in. Excepturi recusandae fugiat facere,
+						cumque autem molestias!
+						<button><strong>READ MORE...</strong></button>
+					</p>
+				</div>
+				<div class="anime-links">
+					<a class="mal-link" href="myanimelist.com">MAL</a>
+					<a class="imdb-link" href="imdb.com">IMDB</a>
+				</div>
+			</div>
+			<div class="anime-card">
+				<img
+					class="anime-img"
+					src="https://placehold.co/320x180"
+					width="320"
+					alt="Image of Name Anime"
+				/>
+				<div class="anime-header">
+					<span class="anime-title">Name</span>
+					<span class="anime-rating">9.5</span>
+				</div>
+				<div class="anime-content">
+					<ul>
+						<li>Genre</li>
+						<li>Episodes</li>
+						<li>Length</li>
+						<li>Name</li>
+					</ul>
+					<p class="anime-description">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, incidunt
+						enim odio eligendi eius iste illo commodi! Repellendus numquam
+						necessitatibus provident error in. Excepturi recusandae fugiat facere,
+						cumque autem molestias!
+						<button><strong>READ MORE...</strong></button>
+					</p>
+				</div>
+				<div class="anime-links">
+					<a class="mal-link" href="myanimelist.com">MAL</a>
+					<a class="imdb-link" href="imdb.com">IMDB</a>
+				</div>
+			</div>
+			<div class="anime-card">
+				<img
+					class="anime-img"
+					src="https://placehold.co/320x180"
+					width="320"
+					alt="Image of Name Anime"
+				/>
+				<div class="anime-header">
+					<span class="anime-title">Name</span>
+					<span class="anime-rating">9.5</span>
+				</div>
+				<div class="anime-content">
+					<ul>
+						<li>Genre</li>
+						<li>Episodes</li>
+						<li>Length</li>
+						<li>Name</li>
+					</ul>
+					<p class="anime-description">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, incidunt
+						enim odio eligendi eius iste illo commodi! Repellendus numquam
+						necessitatibus provident error in. Excepturi recusandae fugiat facere,
+						cumque autem molestias!
+						<button><strong>READ MORE...</strong></button>
+					</p>
+				</div>
+				<div class="anime-links">
+					<a class="mal-link" href="myanimelist.com">MAL</a>
+					<a class="imdb-link" href="imdb.com">IMDB</a>
+				</div>
+			</div>
+			<div class="anime-card">
+				<img
+					class="anime-img"
+					src="https://placehold.co/320x180"
+					width="320"
+					alt="Image of Name Anime"
+				/>
+				<div class="anime-header">
+					<span class="anime-title">Name</span>
+					<span class="anime-rating">9.5</span>
+				</div>
+				<div class="anime-content">
+					<ul>
+						<li>Genre</li>
+						<li>Episodes</li>
+						<li>Length</li>
+						<li>Name</li>
+					</ul>
+					<p class="anime-description">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, incidunt
+						enim odio eligendi eius iste illo commodi! Repellendus numquam
+						necessitatibus provident error in. Excepturi recusandae fugiat facere,
+						cumque autem molestias!
+						<button><strong>READ MORE...</strong></button>
+					</p>
+				</div>
+				<div class="anime-links">
+					<a class="mal-link" href="myanimelist.com">MAL</a>
+					<a class="imdb-link" href="imdb.com">IMDB</a>
+				</div>
+			</div>
+		</main>
+		<script>
+			document.addEventListener("DOMContentLoaded", () => {
+				const btn = document.getElementById("theme-toggle");
+				btn.addEventListener("click", () => {
+					document.body.classList.toggle("light");
+				});
+			});
+		</script>
+	</body>
 </html>
 
 <!-- 1. Where (Position & Layout)
