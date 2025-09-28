@@ -2,11 +2,17 @@
 	margin: 0px;
 	padding: 0px;
 	box-sizing: border-box;
+	border: 1px solid red;
 }
 
 :root {
 	--border-width: 7px;
 	--border-width-thin: 5px;
+
+	--components-size: 4rem;
+	/* --bp-laptop:1105px; */
+	/* --bp-tablet:780px; */
+	/* --bp-phone:450px; */
 }
 
 .max-height {
@@ -19,7 +25,8 @@ body {
 
 header.header {
 	display: flex;
-	height: 4.2em;
+	width: 100%;
+	height: auto;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	font-size: 1em;
 	flex-wrap: wrap;
@@ -28,36 +35,30 @@ header.header {
 	background-color: var(--header);
 }
 
-.rounded-right {
-	border-radius: 0 999px 999px 0;
-}
-.rounded-left {
-	border-radius: 999px 0 0 999px;
-}
-
-/* Text Color */
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-.title{
+main {
 	color: var(--text);
 }
 
 .title {
-	margin: 1rem 5em;
-	padding: 12px;
+	border: 3px solid red;
+	margin: 2rem 10vw;
+	padding: 0.75rem;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	text-align: center;
 	border-radius: 25px;
 	background-color: var(--title);
+	color: var(--text);
 }
 
 p {
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	font-size: 1em;
 	color: var(--text);
+}
+
+.rounded-right {
+	border-radius: 0 999px 999px 0;
+}
+.rounded-left {
+	border-radius: 999px 0 0 999px;
 }

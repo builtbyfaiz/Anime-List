@@ -1,25 +1,27 @@
-.anime-card{
-    color: var(--text);
+.anime-cards { transition: all 0.3s ease-in-out; }
+
+.anime-card:hover {
+    /* Use visual scaling, not layout resizing */
+    transform: scale(1.05); 
+    box-shadow: 0 0 15px 5px rgba(255, 255, 255, 0.2);
 }
-ul {
-    list-style-type: disc !important;
-    list-style-position:inside !important;
-    color: red;
+.anime-cards {
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: center;
+	margin: 0px 9vw;
+    gap: 1.5rem; 
+	color: wheat;
+	border: 2px solid blue;
 }
-.anime-card {
-    display: flex;
-    width: 20rem;
-    flex-direction: column;
-border: 2px solid red;
-}
-.anime-card-img {
-    /* display: flex; */
-    width: 20em;
-}
-.card-link-container {
-    display: flex;
-    padding: 5px 20px;
-    justify-content: space-between;
-    border: 2px solid red;
+.anime-img {
+    width: 100%;
 }
 
+.anime-card {
+	display: flex;
+	width: 340px;
+    list-style-position: inside;
+	flex-direction: column;
+	border: 2px solid red;
+}
