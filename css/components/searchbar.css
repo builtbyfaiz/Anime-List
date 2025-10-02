@@ -50,8 +50,9 @@
  .search-bar {
 	/* margin: 0.5rem; */
 	/* margin: 0px 1rem 0.8rem ; */
-	margin: 0 1vw 1vw;
+	/* margin: clamp(1.8vw,calc(2rem+2vw), 1.5vw) 1vw 1vw; */
 	border-width: 0.2rem;
+	height: clamp(2rem, calc(2rem + 3.2vw), 9rem);
  }
  .search-bar:hover {
 	border-width: 0.5vw;
