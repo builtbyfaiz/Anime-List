@@ -1,5 +1,6 @@
-# Welcome to My Anime List
+## Anime List Website
+A Website listing some of the animes I have watched.
 
-This is a recreation of the website made by @DAUD_01, I wanted to build something similar or better so, here it is.
+This site is built by HTML, CSS, and JS.
 
 Check it out here: [Currently Not Deployed]
